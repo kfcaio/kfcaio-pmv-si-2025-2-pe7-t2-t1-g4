@@ -1,0 +1,97 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtualenv and Python/UV environments
+.venv/
+venv/
+env/
+.uv/
+
+# Jupyter Notebook metadata and cache
+.ipynb_checkpoints/
+
+# Pyright, VSCode, MyPy, Ephemeral files
+.pyright/
+.vscode/
+.mypy_cache/
+.pytest_cache/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Logs and local databases
+*.log
+*.sqlite3
+*.db
+
+# Test, coverage, and profiling
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Django stuff:
+*.mo
+*.pot
+
+# macOS
+.DS_Store
+
+# Editor backups and OS junk
+*~
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
+
+# Jupyter runtime
+.jupyter/
+
+# Python wheels
+*.whl
+
+# Node modules
+node_modules/
+
+# Ignore secret/API keys
+kaggle.json
+
+# Ignore large data artifacts
+*.csv.gz
+*.zip
+*.tar.gz
+*.tar
+*.rar
+data/*.zip
+data/*.gz
+data/*.tar
+data/*.rar
+
+# Ignore all log and checkpoint artifacts
+**/*.log
+**/.ipynb_checkpoints/
