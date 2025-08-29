@@ -42,7 +42,7 @@ uv pip install
 4. Inicie o Jupyter Lab:
 
 ```sh
-jupyter lab
+uv run jupyter lab --port 8888 --ip 0.0.0.0 --ServerApp.disable_check_xsrf=True --ServerApp.token=''
 ```
 5. Abra o notebook `sales.ipynb` e execute as células normalmente.
 
