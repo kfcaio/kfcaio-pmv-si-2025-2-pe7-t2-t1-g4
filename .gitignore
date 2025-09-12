@@ -96,3 +96,5 @@ data/*.rar
 **/*.log
 **/.ipynb_checkpoints/
 **/.envrc
+
+src/catboost_info
